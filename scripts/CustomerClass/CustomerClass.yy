@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CustomerClass",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CustomerClass",
+  "parent":{
+    "name":"Customers",
+    "path":"folders/Minigames/CustomerService/Customers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

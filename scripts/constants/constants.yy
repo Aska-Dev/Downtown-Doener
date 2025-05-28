@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"constants",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"constants",
+  "parent":{
+    "name":"Minigames",
+    "path":"folders/Minigames.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

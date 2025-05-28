@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"elementConstants",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"elementConstants",
+  "parent":{
+    "name":"Elements",
+    "path":"folders/Elements.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

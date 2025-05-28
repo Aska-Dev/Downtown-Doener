@@ -1,0 +1,1 @@
+draw_circular_bar(mouse_x, mouse_y, trashProgress, trashGoal, c_red, 50, 1, 10);

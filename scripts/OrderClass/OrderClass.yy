@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"OrderClass",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"OrderClass",
+  "parent":{
+    "name":"MakeDöner",
+    "path":"folders/Minigames/MakeDöner.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
