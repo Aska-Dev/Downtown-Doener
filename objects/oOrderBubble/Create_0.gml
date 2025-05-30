@@ -11,6 +11,11 @@ getDishTypeSprite = function ()
     {
         return sprBoxEmpty;
     }
+    
+    if(type == DISH.BREAD)
+    {
+        return sprBread;
+    }
 }
 
 getIngredientSprite = function (ingredient)

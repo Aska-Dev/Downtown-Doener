@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"musicGame1.mp3",
   "type":0,
-  "volume":0.4,
+  "volume":0.2,
 }

@@ -1,4 +1,4 @@
-if(global.customerQ > 10)
+if(global.customerQ > 5)
 {
     game_end(0);
 }
@@ -21,8 +21,3 @@ if(global.customerQ > 0 && array_contains(customerSlots, undefined) && room == r
         customerArrives(freeSlot);
     }
 }
-
-if(keyboard_check_pressed(vk_enter))
-{
-    customerAddToQ();
-} 

@@ -38,9 +38,10 @@ function Order() constructor
 
 enum DISH
 {
-    BOX
+    BOX,
+    BREAD
 }
-#macro AMOUNT_DISH 1
+#macro AMOUNT_DISH 2
 
 enum INGREDIENT
 {

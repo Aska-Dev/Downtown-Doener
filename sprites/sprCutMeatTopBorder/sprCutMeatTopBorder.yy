@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprCutMeatTopBorder",
   "bboxMode":0,
-  "bbox_bottom":91,
+  "bbox_bottom":41,
   "bbox_left":0,
   "bbox_right":255,
   "bbox_top":0,
@@ -20,7 +20,8 @@
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"081ecba8-aa72-40cc-b764-dbe337711527","blendMode":0,"displayName":"default","isLocked":false,"name":"081ecba8-aa72-40cc-b764-dbe337711527","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ac3ff39e-1b1b-4281-90e7-4ad4cb8bd1db","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"ac3ff39e-1b1b-4281-90e7-4ad4cb8bd1db","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"081ecba8-aa72-40cc-b764-dbe337711527","blendMode":0,"displayName":"default","isLocked":false,"name":"081ecba8-aa72-40cc-b764-dbe337711527","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"sprCutMeatTopBorder",
   "nineSlice":null,

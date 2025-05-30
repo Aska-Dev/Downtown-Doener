@@ -26,7 +26,7 @@ getIngredientSprite = function (ingredient)
         case INGREDIENT.FRIES:
             return sprBoxFries;
         default:
-            return sprBoxEmpty;
+            return sprite_index;
         
     }
 }

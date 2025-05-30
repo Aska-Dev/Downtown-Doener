@@ -54,5 +54,10 @@ checkDish = function (dish)
         return false;
     }
     
+    if(order.dish.type == DISH.BREAD && dish.warm == false)
+    {
+        return false;
+    }
+    
     return true;
 }

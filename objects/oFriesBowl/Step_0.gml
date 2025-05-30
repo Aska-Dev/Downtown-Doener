@@ -8,8 +8,11 @@ if(position_meeting(mouse_x, mouse_y, id) && mouse_check_button_pressed(mb_left)
     }
 }
 
-if(position_meeting(mouse_x, mouse_y, id) && fries > 0 && mouse_check_button_pressed(mb_left) && oHandController.holding != noone && oHandController.holding.elId == ELEMENT.BOX)
+if(position_meeting(mouse_x, mouse_y, id) && fries > 0 && mouse_check_button_pressed(mb_left) && oHandController.holding != noone)
 {
-    fries--;
-    oHandController.holding.addIngredient(INGREDIENT.FRIES);
+    if(oHandController.holding.elId == ELEMENT.BOX || oHandController.holding.elId == ELEMENT.BREAD)
+    {
+        fries--;
+        oHandController.holding.addIngredient(INGREDIENT.FRIES);
+    }
 }

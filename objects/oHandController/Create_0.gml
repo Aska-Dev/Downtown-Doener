@@ -12,8 +12,8 @@ hold = function (element)
 {
     if(holding == noone)
     {
-        element.visible = true; 
         holding = element;
+        element.visible = true;
     }
 };
 

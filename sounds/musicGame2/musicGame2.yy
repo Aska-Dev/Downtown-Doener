@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":-1.0,
+  "duration":111.15975,
   "name":"musicGame2",
   "parent":{
     "name":"Music",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"musicGame2.mp3",
   "type":0,
-  "volume":0.4,
+  "volume":0.2,
 }

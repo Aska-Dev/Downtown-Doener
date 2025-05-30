@@ -47,8 +47,13 @@ customerLeaves = function (customerSlot)
     
     instance_destroy(leavingCustomer.obj);
     customerSlots[customerSlot] = undefined;
+    
+    global.highscore++;
 }
 
 
 // Run at startup
-alarm[0] = newCustomerTimer();
+if(!global.IsTraining)
+{ 
+    alarm[0] = newCustomerTimer();   
+}
