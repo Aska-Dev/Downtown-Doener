@@ -16,7 +16,7 @@ reset = function ()
 
 run = function ()
 {
-    audio_play_sound(sndMicrowaveRunning, 150, false);
+    audio_play_sound(sndMicrowaveRunning, 150, false, global.soundVolume);
     instance_destroy(minigame);
     running = true;
     alarm[0] = warmupTime;

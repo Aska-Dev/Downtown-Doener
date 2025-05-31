@@ -28,6 +28,12 @@ getIngredientSprite = function (ingredient)
         case INGREDIENT.FRIES:
             return sprIngredientFries;
         
+        case INGREDIENT.HOT_SAUCE:
+            return sprIngredientHotSauce;
+        
+        case INGREDIENT.COCKTAIL_SAUCE:
+            return sprIngredientCocktailSauce    
+        
         default:
             return undefined;
     }
@@ -56,8 +62,8 @@ ingredients = getIngredientSprites();
 pos1 = {x: x + 30, y: y - 190}
 pos2 = {x: x + 130, y: y - 190}
 pos3 = {x: x + 230, y: y - 190}
-pos4 = {x: x + 30, y: y - 190}
-pos5 = {x: x + 130, y: y - 190}
-pos6 = {x: x + 230, y: y - 190}
+pos4 = {x: x + 30, y: y - 100}
+pos5 = {x: x + 130, y: y - 100}
+pos6 = {x: x + 230, y: y - 100}
 
 pos = [pos1, pos2, pos3, pos4, pos5, pos6];

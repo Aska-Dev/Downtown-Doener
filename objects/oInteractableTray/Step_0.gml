@@ -5,7 +5,8 @@ if(position_meeting(mouse_x, mouse_y, id) && mouse_check_button_pressed(mb_left)
         holding = oHandController.holding;
         oHandController.holding = noone;
         
-        holding.visible = false;
+        holding.x = x;
+        holding.y = y;
     }
     else if(oHandController.holding == noone && holding != noone)
     {

@@ -8,8 +8,3 @@ else
 }
 
 draw_self();
-
-if(holding != noone)
-{
-    draw_sprite_ext(holding.sprite_index, holding.image_index, x, y, holding.image_xscale, holding.image_yscale, 0, c_white, 1);
-}

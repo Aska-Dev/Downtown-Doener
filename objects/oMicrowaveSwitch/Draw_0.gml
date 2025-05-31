@@ -1,10 +1,10 @@
 if(active)
 {
-    sprite_index = sprMicrowaveSwitchOn;
+    sprite_index = sprMicrowaveSwitchOff;
 }
 else
 {
-     sprite_index = sprMicrowaveSwitchOff;
+     sprite_index = sprMicrowaveSwitchOn;
 }
 
 if(room == roomKitchen)

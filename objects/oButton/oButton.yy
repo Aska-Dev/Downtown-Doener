@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprButtonOpen",
-    "path":"sprites/sprButtonOpen/sprButtonOpen.yy",
+    "name":"sprButton",
+    "path":"sprites/sprButton/sprButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

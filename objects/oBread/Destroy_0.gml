@@ -1,1 +1,4 @@
-instance_destroy(steamObj);
+if(steamObj != undefined)
+{
+    instance_destroy(steamObj);
+}

@@ -20,10 +20,16 @@ function Order() constructor
             array_push(ingredients, ingredientRoll);
         }
         
+        var sauceRoll = irandom_range(INGREDIENT.NO_SAUCE, INGREDIENT.NO_SAUCE + AMOUNT_SAUCES - 1);
+        if(sauceRoll > INGREDIENT.NO_SAUCE)
+        {
+            array_push(ingredients, sauceRoll);
+        }
+        
         return 
         {
             type: dishRoll,
-            ingredients: ingredients
+            ingredients: ingredients,
         }
     }
     
@@ -45,7 +51,12 @@ enum DISH
 
 enum INGREDIENT
 {
-    MEAT,
-    FRIES,
+    MEAT = 0,
+    FRIES = 1,
+    
+    NO_SAUCE = 10,
+    HOT_SAUCE = 11,
+    COCKTAIL_SAUCE = 12
 }
 #macro AMOUNT_INGREDIENT 2
+#macro AMOUNT_SAUCES 3

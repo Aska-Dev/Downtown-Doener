@@ -21,7 +21,7 @@ playRandomSong = function ()
     audio_stop_sound(currentSong);
     
     currentSong = randomSong;
-    audio_play_sound(randomSong, 100, false);
+    audio_play_sound(randomSong, 100, false, global.musicVolume);
     manualStop = false;
 }
 

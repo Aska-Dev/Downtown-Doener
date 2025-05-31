@@ -1,6 +1,8 @@
 # Sound
 microwave.wav by hinzebeat -- https://freesound.org/s/171450/ -- License: Attribution 4.0
 
+Rubber duck toy squeaking.wav by panmaterac -- https://freesound.org/s/201285/ -- License: Creative Commons 0
+
 # Music
 
 # Art
