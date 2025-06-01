@@ -2,8 +2,13 @@
 
 newCustomerTimer = function ()
 {
+    var currentScore = global.highscore;
+    
+    var multiplier = currentScore / 5;
+    var timeReducer = floor(2 * multiplier); 
+    
     var base = game_get_speed(gamespeed_fps);
-    return base * random_range(5, 10);
+    return base * (30 - timeReducer);
 }
 
 maxCustomers = 3;

@@ -2,7 +2,7 @@
   "$GMFont":"",
   "%Name":"fntDefault",
   "AntiAlias":1,
-  "applyKerning":0,
+  "applyKerning":1,
   "ascender":24,
   "ascenderOffset":1,
   "bold":false,
@@ -146,7 +146,10 @@
   "sdfSpread":8,
   "size":20.0,
   "styleName":"Roman",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":true,
 }

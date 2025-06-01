@@ -8,6 +8,7 @@ if(order == undefined)
 selectArrow = undefined;
 bubble = undefined;
 
+image_index = irandom_range(0, image_number -1);
 slot = undefined;
 
 // Functiom

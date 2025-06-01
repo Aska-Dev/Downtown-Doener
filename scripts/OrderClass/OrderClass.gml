@@ -2,8 +2,12 @@ function Order() constructor
 {
     static setDish = function ()
     {
-        var dishRoll = round(random_range(0, AMOUNT_DISH - 1));
-        var ingredientAmountRoll = round(random_range(1, 2));
+        var dishRoll = irandom_range(0, AMOUNT_DISH - 1);
+        
+        var ingredientMinAmount = clamp(global.highscore / 10, 1, 3);
+        var ingredientMaxAmount = 3;
+        
+        var ingredientAmountRoll = irandom_range(1, 3);
         
         var ingredients = [];
         
@@ -13,7 +17,7 @@ function Order() constructor
             
             do
             {
-                ingredientRoll = round(random_range(0, AMOUNT_INGREDIENT -1));
+                ingredientRoll = irandom_range(0, AMOUNT_INGREDIENT -1);
             }
             until (!array_contains(ingredients, ingredientRoll));
             
@@ -53,10 +57,11 @@ enum INGREDIENT
 {
     MEAT = 0,
     FRIES = 1,
+    SALAD = 2,
     
     NO_SAUCE = 10,
     HOT_SAUCE = 11,
     COCKTAIL_SAUCE = 12
 }
-#macro AMOUNT_INGREDIENT 2
+#macro AMOUNT_INGREDIENT 3
 #macro AMOUNT_SAUCES 3

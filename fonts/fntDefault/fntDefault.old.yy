@@ -2,7 +2,7 @@
   "$GMFont":"",
   "%Name":"fntDefault",
   "AntiAlias":1,
-  "applyKerning":0,
+  "applyKerning":1,
   "ascender":24,
   "ascenderOffset":1,
   "bold":false,

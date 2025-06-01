@@ -32,7 +32,10 @@ getIngredientSprite = function (ingredient)
             return sprIngredientHotSauce;
         
         case INGREDIENT.COCKTAIL_SAUCE:
-            return sprIngredientCocktailSauce    
+            return sprIngredientCocktailSauce;
+        
+        case INGREDIENT.SALAD:
+            return sprIngredientSalad;
         
         default:
             return undefined;

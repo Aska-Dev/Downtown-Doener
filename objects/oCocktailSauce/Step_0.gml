@@ -4,7 +4,8 @@ if(position_meeting(mouse_x, mouse_y, id) && mouse_check_button_pressed(mb_left)
     {
         if(!array_contains(oHandController.holding.ingredients, INGREDIENT.HOT_SAUCE))
         {
-             oHandController.holding.addIngredient(INGREDIENT.COCKTAIL_SAUCE);
+            audio_play_sound(sndSauceSquish, 150, false, global.soundVolume);
+            oHandController.holding.addIngredient(INGREDIENT.COCKTAIL_SAUCE);
         }
     }
 }

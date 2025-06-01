@@ -9,11 +9,18 @@ if(position_meeting(mouse_x, mouse_y, id))
     {
         var checkResult = checkDish(oHandController.holding);
         
-        if(checkResult)
+        if(!checkResult)
         { 
-            oHandController.trashHoldingItem();
-            oCustomerController.customerLeaves(slot);
+            global.lifes--;
+            audio_play_sound(sndFeedbackNegative, 150, false, global.soundVolume);
         }
+        else
+        {
+            audio_play_sound(sndFeedbackPositive, 150, false, global.soundVolume);
+        }
+        
+        oHandController.trashHoldingItem();
+        oCustomerController.customerLeaves(slot);
     }
 }
 else

@@ -25,6 +25,8 @@ getIngredientSprite = function (ingredient)
             return sprBoxMeat;
         case INGREDIENT.FRIES:
             return sprBoxFries;
+        case INGREDIENT.SALAD:
+            return sprBoxSalad;
         default:
             return sprite_index;
         

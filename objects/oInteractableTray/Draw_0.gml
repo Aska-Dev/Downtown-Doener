@@ -7,4 +7,7 @@ else
     sprite_index = sprTray;
 }
 
-draw_self();
+if(room == roomKitchen)
+{
+    draw_self();
+}

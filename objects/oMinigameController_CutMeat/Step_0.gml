@@ -14,7 +14,7 @@ if(cuttingTopToBottom && position_meeting(mouse_x, mouse_y, botBorder))
 {
     createParticle();
     
-    cuttingProgress += 15;
+    cuttingProgress += 25;
     cuttingTopToBottom = false;
 }
 
@@ -22,7 +22,7 @@ if(cuttingBottomToTop && position_meeting(mouse_x, mouse_y, topBorder))
 {
     createParticle();
     
-    cuttingProgress += 15;
+    cuttingProgress += 25;
     cuttingBottomToTop = false;
 }
 

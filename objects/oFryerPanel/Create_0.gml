@@ -34,4 +34,5 @@ createFries = function ()
     }
 }
 
+audio_play_sound(sndFrying, 150, true, global.soundVolume)
 createFries();

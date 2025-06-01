@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprIngredientCocktailSauce",
-    "path":"sprites/sprIngredientCocktailSauce/sprIngredientCocktailSauce.yy",
+    "name":"sprCocktailSauce",
+    "path":"sprites/sprCocktailSauce/sprCocktailSauce.yy",
   },
   "spriteMaskId":null,
   "visible":true,
