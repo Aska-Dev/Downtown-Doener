@@ -52,8 +52,6 @@ customerLeaves = function (customerSlot)
     
     instance_destroy(leavingCustomer.obj);
     customerSlots[customerSlot] = undefined;
-    
-    global.highscore++;
 }
 
 

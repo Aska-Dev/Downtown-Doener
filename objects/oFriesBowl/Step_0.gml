@@ -12,7 +12,10 @@ if(position_meeting(mouse_x, mouse_y, id) && fries > 0 && mouse_check_button_pre
 {
     if(oHandController.holding.elId == ELEMENT.BOX || oHandController.holding.elId == ELEMENT.BREAD)
     {
-        fries--;
-        oHandController.holding.addIngredient(INGREDIENT.FRIES);
+        if(!array_contains(oHandController.holding.ingredients, INGREDIENT.FRIES))
+        {
+            fries--;
+            oHandController.holding.addIngredient(INGREDIENT.FRIES);
+        }
     }
 }

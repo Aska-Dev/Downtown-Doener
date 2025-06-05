@@ -11,7 +11,10 @@ if(position_meeting(mouse_x, mouse_y, id) && global.cuttingBoardSalad > 0 && mou
 {
     if(oHandController.holding.elId == ELEMENT.BOX || oHandController.holding.elId == ELEMENT.BREAD)
     {
-        global.cuttingBoardSalad--;
-        oHandController.holding.addIngredient(INGREDIENT.SALAD);
+         if(!array_contains(oHandController.holding.ingredients, INGREDIENT.SALAD))
+        {
+            global.cuttingBoardSalad--;
+            oHandController.holding.addIngredient(INGREDIENT.SALAD);
+        }
     }
 }

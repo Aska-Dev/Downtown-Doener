@@ -1,5 +1,6 @@
 if(global.customerQ >= 1 && !array_contains(customerSlots, undefined))
 {
+    global.gameOverMessage = lexicon_text("gameoverMessage.waiting");
     oGameController.gameOver();
 }
 

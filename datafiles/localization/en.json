@@ -1,0 +1,50 @@
+{
+    "language": "English",
+    "locale": "en",
+    "text": {
+        "hint": {
+            "1": "Hold the right mouse button to throw away the item you're currently holding!",
+            "2": "If you keep a bread in the microwave it stays warm and wont cool down.",
+            "3": "You can still make fries even if you're fries bowl is full. Just keep them in the fryer.",
+            "4": "You even can put an already done kebap in the microwave to reheat the bread if it cooled down.",
+            "5": "Don't you like the current song? Don't worry, just press left mouse button at the radio to change the music."
+        },
+        "credit" :
+        {
+            "title":
+            {
+                "dev": "Concept, development and art",
+                "sound": "Sound effects"
+            }
+        },
+         "menu" :
+        {
+            "button":
+            {
+                "exit": "Exit game",
+                "back": "Back",
+                "menu": "To menu"
+            }
+        },
+        "gameoverMessage":
+        {
+            "default": "This customer had ordered something else...",
+            "waiting": "A customer had to wait too long...",
+            "coldBread": "You sold a cold bread...",
+            "missing": {
+                "fries": "You forgot the fries...",
+                "meat": "You forgot the meat...",
+                "whiteSauce": "You forgot the white sauce...",
+                "redSauce": "You forgot the red sauce...",
+                "salad": "You forgot the salad..."
+            },
+            "notOrdered": {
+                "fries": "This customer did not order fries!",
+                "meat": "This customer did not order meat!",
+                "whiteSauce": "This customer did not order white sauce!",
+                "redSauce": "This customer did not order red sauce!",
+                "salad": "This customer did not order salad!"
+            }
+        }
+    }
+}

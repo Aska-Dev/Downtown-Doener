@@ -112,7 +112,7 @@
       ],"traits":0,},
     {"$GMTextTrack":"","%Name":"2","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetTextKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetTextKeyframe>":"","Channels":{
-              "0":{"$AssetTextKeyframe":"","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Sound Effekte","Wrap":true,},
+              "0":{"$AssetTextKeyframe":"","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Sound effects","Wrap":true,},
             },"Disabled":false,"id":"763e9151-ecdb-4da5-807c-ace54e7b47e7","IsCreationKey":false,"Key":0.0,"Length":60.0,"resourceType":"Keyframe<AssetTextKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetTextKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"2","resourceType":"GMTextTrack","resourceVersion":"2.0","trackColour":4294068453,"tracks":[
         {"$GMRealTrack":"","%Name":"frameSize","builtinName":20,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
@@ -240,7 +240,7 @@
       ],"traits":0,},
     {"$GMTextTrack":"","%Name":"1","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetTextKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetTextKeyframe>":"","Channels":{
-              "0":{"$AssetTextKeyframe":"","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Konzept, Entwicklung und Design","Wrap":true,},
+              "0":{"$AssetTextKeyframe":"","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"Concept, development and art","Wrap":true,},
             },"Disabled":false,"id":"fbd091eb-de9b-492f-ac66-f62351d01170","IsCreationKey":false,"Key":0.0,"Length":60.0,"resourceType":"Keyframe<AssetTextKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetTextKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"1","resourceType":"GMTextTrack","resourceVersion":"2.0","trackColour":4294068453,"tracks":[
         {"$GMRealTrack":"","%Name":"frameSize","builtinName":20,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[

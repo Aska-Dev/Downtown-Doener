@@ -1,0 +1,42 @@
+{
+    "language": "Deutsch",
+    "locale": "de",
+    "text": {
+        "hint": {
+            "1": "Halte Rechtsklick gedrückt um das Element in deiner Hand wegzuwerfen!",
+            "2": "Ich hab 'ne Zwiebel auf'm Kopf, ich bin ein Döner. Denn Döner macht schöner...",
+            "3": "Du kannst Pommes in der Fritteuse zwischenlagern, wenn deine Pommesschüssel noch voll ist.",
+            "4": "Du kannst auch einen fertigen Döner im Brot in die Mikrowelle stecken um ihn aufzuwärmen!",
+            "5": "Gefällt dir der aktuelle Song nicht? Klicke einfach auf's Radio um den Sender zu wechseln."
+        },
+        "menu" :
+        {
+            "button":
+            {
+                "exit": "Spiel beenden",
+                "back": "Zurück",
+                "menu": "Zum Menü"
+            }
+        },
+        "gameoverMessage":
+        {
+            "default": "Der Kunde wollte etwas anderes...",
+            "waiting": "Ein Kunde musste zu lange warten...",
+            "coldBread": "Du kannst doch keine kalten Brote verkaufen...",
+            "missing": {
+                "fries": "Du hast die Pommes vergessen...",
+                "meat": "Du hast das Fleisch vergessen...",
+                "whiteSauce": "Du hast die weiße Soße vergessen...",
+                "redSauce": "Du hast die rote Soße vergessen...",
+                "salad": "Du hast den Salat vergessen..."
+            },
+            "notOrdered": {
+                "fries": "Der Kunde wollte keine Pommes!",
+                "meat": "Der Kunde wollte kein Fleisch!",
+                "whiteSauce": "Der Kunde wollte keine weiße Soße!",
+                "redSauce": "Der Kunde wollte keine rote Soße!",
+                "salad": "Der Kunde wollte keinen Salat!"
+            }
+        }
+    }
+}

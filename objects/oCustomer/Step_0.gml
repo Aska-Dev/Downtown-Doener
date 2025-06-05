@@ -12,11 +12,12 @@ if(position_meeting(mouse_x, mouse_y, id))
         if(!checkResult)
         { 
             global.lifes--;
-            audio_play_sound(sndFeedbackNegative, 150, false, global.soundVolume);
+            audio_play_sound(sndFeedbackNegative, 150, false, global.soundVolume / 2);
         }
         else
-        {
-            audio_play_sound(sndFeedbackPositive, 150, false, global.soundVolume);
+        {    
+            global.highscore++;
+            audio_play_sound(sndFeedbackPositive, 150, false, global.soundVolume / 5);
         }
         
         oHandController.trashHoldingItem();
